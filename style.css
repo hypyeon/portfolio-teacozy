@@ -1,0 +1,21 @@
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#main {
+    height: 50px;
+    border: 10px;
+    display: flex;
+}
+
+.menu {
+    display: inline-flex;
+    text-align: right;
+    padding: 0 200px;
+
+}
