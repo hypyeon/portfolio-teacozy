@@ -1,21 +1,120 @@
 html {
+    margin: 0;
     background-color: black;
     color: seashell;
     font-family: Helvetica;
     font-size: 22px;
     opacity: 0.9;
     text-align: center;
+    overflow: scroll;
 }
 
-#main {
-    height: 50px;
-    border: 10px;
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    box-sizing: border-box;
 }
 
-.menu {
-    display: inline-flex;
-    text-align: right;
-    padding: 0 200px;
+header img {
+    height: 50px;
+    padding: 10px;
+}
 
+nav {
+    justify-content: center;
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 30px;
+    
+}
+
+nav span {
+    padding: 20px 18px;
+   
+}
+
+main {
+    width: 100%;
+    padding-top: 120px;
+    margin: auto;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+}
+
+#mission img {
+    max-width: 1100px;
+    height: auto;
+}
+
+#mission .description {
+    background-color: black;
+    box-sizing: border-box;
+    opacity: 0.8;
+    padding: 8px;
+    width: 1100px;
+    top: 50%;
+    position: absolute;
+}
+
+#tea .items{
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figcaption {
+    padding-top: 10px; 
+}
+
+#locations, .address {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#locations h2 {
+    position: absolute;
+    margin-top: 80px;
+}
+
+.address {
+    position: absolute;
+}
+
+.downtown, .eastbayside, .oakdale {
+    background-color: black;
+    width: 250px;
+    height: 250px; 
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
 }
