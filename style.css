@@ -77,9 +77,10 @@ main {
 
 figcaption {
     padding-top: 10px; 
+    font-size: 18px;
 }
 
-#locations, .address {
+#locations, .address{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -105,8 +106,11 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+}
+
+.address p {
+    font-size: 20px; 
+    line-height: 0.3em;
 }
 
 .contact {
