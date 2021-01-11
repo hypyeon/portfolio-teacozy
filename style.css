@@ -99,20 +99,18 @@ figcaption {
 .downtown, .eastbayside, .oakdale {
     background-color: black;
     opacity: 0.85;
-    width: 250px;
-    height: 250px; 
+    width: 260px;
+    height: 260px; 
     box-sizing: border-box;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 180px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-top: 28px;
 }
 
 .address p {
-    font-size: 20px; 
-    line-height: 0.3em;
+    font-size: 18px; 
+    line-height: 1em;
 }
 
 .contact {
